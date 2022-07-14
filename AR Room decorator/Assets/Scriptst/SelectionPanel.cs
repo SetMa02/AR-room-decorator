@@ -29,7 +29,7 @@ public class SelectionPanel : MonoBehaviour
 
     private void OnItemSelected(ItemData itemData)
     {
-
+        _objectPlacer.SetInstalledObject(itemData);
     }
 
     private void OnItemDisabled(Item item)
